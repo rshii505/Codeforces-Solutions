@@ -42,5 +42,5 @@ Competitive programming is a long-term journey. This repository reflects consist
 
 ---
 
-⭐ Consistency over intensity.
+⭐ Obsession over Consistency over intensity.
 
