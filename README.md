@@ -7,16 +7,14 @@ This repository contains my solutions to problems from [Codeforces](https://code
 ## 📂 Repository Structure
 
 Solutions are categorized by rating ranges to reflect progression in difficulty:
-Problemsets/
-    CPP/
-    Java/
-        800/
-        900/
-        1000/
-        ...
+<br>Problemsets/
+<br>&emsp;Java/
+<br>&emsp;&emsp;800/
+<br>&emsp;&emsp;900/
+<br>&emsp;&emsp;1000/
 
 Each problem follows a consistent naming convention:
-<ProblemID>_<ProblemName>
+<br>Solution_&lt;ProblemID&gt;_&lt;ProblemName&gt;
 
 This ensures clarity, easy navigation, and scalability as the repository continues to grow.
 
