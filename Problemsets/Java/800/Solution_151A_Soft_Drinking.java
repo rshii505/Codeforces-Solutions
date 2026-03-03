@@ -11,12 +11,6 @@ public class Solution_151A_Soft_Drinking {
         short p = sc.nextShort();
         short nl = sc.nextShort();
         short np = sc.nextShort();
-        int totml = k*l;
-        int totlime = c*d;
-        int totdrinktoasts = totml/nl;
-        int totlimetoasts = totlime;
-        int totsalttoasts = p/np;
-        int max = ((int)(Math.min(Math.min(totdrinktoasts, totlimetoasts), totsalttoasts)))/n;
-        System.out.println(max);
+        System.out.println((((int)(Math.min(Math.min(((k*l)/nl), (c*d)), (p/np))))/n));
     }
 }
