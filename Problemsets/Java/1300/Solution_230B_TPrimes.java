@@ -1,3 +1,4 @@
+// https://codeforces.com/problemset/problem/230/B
 import java.util.Scanner;
 public class Solution_230B_TPrimes {
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+// https://codeforces.com/problemset/problem/2189/A
 import java.util.Scanner;
 public class Solution_2189A_Table_with_Numbers {
     public static void main(String[] args) {

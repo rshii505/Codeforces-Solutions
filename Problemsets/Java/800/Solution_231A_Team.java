@@ -1,3 +1,4 @@
+// https://codeforces.com/problemset/problem/231/A
 import java.util.Scanner;
 public class Solution_231A_Team {
     public static void main(String[] args) {

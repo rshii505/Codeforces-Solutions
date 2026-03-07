@@ -1,3 +1,4 @@
+// https://codeforces.com/problemset/problem/2117/A
 import java.util.Scanner;
 public class Solution_2117A_False_Alarm {
     public static void main(String[] args) {

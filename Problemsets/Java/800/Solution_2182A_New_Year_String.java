@@ -1,3 +1,4 @@
+// https://codeforces.com/problemset/problem/2182/A
 import java.util.Scanner;
 public class Solution_2182A_New_Year_String {
     public static void main(String[] args) {

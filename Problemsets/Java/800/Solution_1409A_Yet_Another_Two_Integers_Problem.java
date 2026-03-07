@@ -1,3 +1,4 @@
+// https://codeforces.com/problemset/problem/1409/A
 import java.util.Scanner;
 public class Solution_1409A_Yet_Another_Two_Integers_Problem {
     public static void main(String[] args) {
