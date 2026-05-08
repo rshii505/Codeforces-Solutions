@@ -1,16 +1,18 @@
 // https://codeforces.com/problemset/problem/52/A
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 public class Solution_52A_123_sequence {
-    public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
-      int n = sc.nextInt();
-      sc.nextLine();
-      String nums[] = sc.nextLine().split(" ");
+    public static void main(String[] args) throws IOException {
+      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+      int n = Integer.parseInt(br.readLine());
+      StringTokenizer nums = new StringTokenizer(br.readLine());
       int one, two, thr;
       one = two = thr = 0;
-      for(int i = 0; i < nums.length; ++i)
+      for(int i = 0; i < n; ++i)
       {
-        int t = Integer.parseInt(nums[i]);
+        int t = Integer.parseInt(nums.nextToken());
         if(t == 1) ++one;
         else if(t == 2) ++two;
         else if(t == 3) ++ thr;
